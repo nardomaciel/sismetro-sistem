@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media_query</title>
+</head>
+<style>
+   #coluna_1{
+    background-color: aqua;
+   }
+   #coluna_2{
+    background-color: aquamarine;
+   }
+   #coluna_3{
+    background-color: rgb(23, 86, 86);
+   }
+   .coluna{
+    width: 100%;
+    float: left;
+   }
+   @media (min-width: 800px){
+    .coluna{
+        width: 50%;
+    }
+   }
+   @media(min-width:1000px){
+    .coluna{
+        width:33.3%;
+    }
+   }
+</style>
+<body>
+    <div id="coluna_1" class="coluna">
+        coluna_1
+        <img src="https://i.pinimg.com/236x/8f/92/8d/8f928dffdf2ea09c1495b425080a62d5.jpg" alt="">
+    </div>
+    <div id="coluna_2" class="coluna">
+        coluna_2
+        <img src="https://i.pinimg.com/236x/5d/27/2d/5d272db5a470abcc8d5b152078ece78d.jpg" alt="">
+    </div>
+    <div id="coluna_3" class="coluna">
+        coluna_3
+        <img src="https://i.pinimg.com/236x/f9/da/b7/f9dab7f917ce21cc4dd75d3475328e75.jpg" alt="">
+    </div>
+</body>
+</html>
