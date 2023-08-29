@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>formularios</title>
+</head>
+<body>
+    <div class="row mt-2">
+        <div class="col-8 offset-2">
+            <form>
+                <label for="arquivo">arquivo</label>
+                <input id="arquivo" type="file" class="form-control"/>
+
+                <label>data:</label>
+                    <input type="date" class="form-control"/>
+
+                <label> data e hora:</label>
+                <input type="datetime" class="form-control"/>
+
+                <label>número:</label>
+                <input type="number" class="form-control" value="500" required/>
+
+                <input type="hidden" class="form-control" value="20">
+
+                <label>
+                    <input type="checkbox"/>caixa de seleçao
+                </label>
+                <br/>
+
+                <label>
+                <input type="radio" name="opçao" value="o1"/>tipo 1
+                </label><br/>
+
+                <label><br/>
+                    <input type="radio" name="opçao" value="o2"/>tipo 2
+                </label><br/>
+
+                <label><br/>
+                     <input type="radio" name="opçao" value="o3"/>tipo 3
+                 </label><br/>
+<br>
+<br>
+<br>
+<br>
+                 <select>
+                    <optgroup>
+                        <option>tipo 1</option>
+                        <option>tipo 2</option>
+                        <option>tipoo 3</option>
+                    </optgroup label="teste">
+                        <option>opçao 4</option>
+                        <option>opçao 5</option>
+                        <option>opçao 6</option>
+                 </select>
+            </form>
+
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

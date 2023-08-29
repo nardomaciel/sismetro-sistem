@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>formularios</title>
+    <title>atividade forms</title>
+</head>
+
+<body>
+    <form>
+        <div class="row mt-2">
+            <div class="col-8 offset-2">
+                <label>Data:</label>
+                <input type="date" class="form-control" />
+                <label>Digite o seu nome</label>
+
+                <input name="nome:" type="text" class="form-control" placeholder="nome:" required />
+
+
+                <label>E-mail</label>
+                <input name="E-mail" type="email" class="form-control" placeholder="e-mail" required>
+
+
+                <label>Tipo:</label>
+
+                <select class="form-select">
+                    <optgroup label="teste" />
+                    <option>tipo 1</option>
+                    <option>tipo 2</option>
+                    <option>tipo 3</option>
+                    <option>tipo 4</option>
+                    <option>tipo 5</option>
+                    <option>tipo 6</option>
+                </select>
+
+                <br />
+
+                <label for="pergunta">Qual o melhor filme da disney?</label> <br />
+                <label>
+
+                    <input type="radio" name="opçao" value="o1" />Enrolados
+                </label> <br>
+
+                <label>
+                    <input type="radio" name="opçao" value="o2" />Rei leão
+                </label> <br> 
+                <label>
+                <input type="radio" name="opçao" value="o2" />A Princesa e o Sapo
+                </label> <br>
+                <label>
+                <input type="radio" name="opçao" value="o2" />Monstros S.A
+                </label> <br>
+
+                <label>
+                    <input type="radio" name="opçao" value="o3" />Moana
+                </label> <br>
+                <br />
+
+                <label for="pergunta">Qual a melhor música da Taylor Swift?</label> <br />
+                <label>
+                     <input type="radio" name="tipo" value="o1" />Love story
+                </label> <br>
+                <label>
+                <input type="radio" name="tipo" value="o1" />Cruel Summer
+                </label> <br>
+                <label>
+                <input type="radio" name="tipo" value="o1" />Blank Space
+                </label> <br>
+
+                <label>
+                    <input type="radio" name="tipo" value="o2" />Bad Blood
+                </label> <br>
+
+                <label>
+                    <input type="radio" name="tipo" value="o3" />Shake It Of
+                </label> <br>
+                <br>
+                <input type="checkbox" />Aceito
+
+                <br />
+                <input type="submit" value="envia" class="btn btn-outline-success">
+            <input type="reset" value="resetar" class="btn btn-outline-danger">
+            </div>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

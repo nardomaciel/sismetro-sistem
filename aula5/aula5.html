@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 5 revisao</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: linear-gradient(180deg, #3c6979, #468aa7, #628a94, #2e2f45ae);
+            background-attachment: fixed;
+        }
+
+        #card {
+            background-color: rgba(57, 95, 124, 0.74);
+        }
+
+        .img {
+            padding: 2%;
+            margin-top: 2%;
+
+        }
+
+        .inscricao {
+            text-align: center;
+            background: rgb(118, 117, 117);
+            color: white;
+            margin: 4%;
+        }
+
+        #p {
+            color: white;
+        }
+
+        .imagem {
+            background: black url(https://i.pinimg.com/236x/4b/fe/45/4bfe455419f9423fffc30a30d83367fb.jpg)center center no-repeat fixed;
+            background-size: cover;
+            min-height: 30vh;
+        }
+        h1{
+            text-align: center;
+            color: rgb(255, 253, 253);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">acao</a></li>
+                            <li><a class="dropdown-item" href="#">anotar acao</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">produtos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">atalho</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="row mt-2">
+        <div class="col-3  text-center" id="card">
+            <div class="card-header">
+                <h5>Erling Haaland</h5>
+            </div>
+            <div class="card-body">
+                <p>Erling Haaland é um jogador de futebol norueguês que atua como atacante. Nascido em 21 de julho de
+                    2000, em Leeds, na Inglaterra, ele é considerado um dos jovens talentos mais promissores do futebol
+                    mundial.</p>
+            </div>
+        </div>
+        <div class="col-5 offset-1 text-center" id="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE04OHtjrx1BxdUdQUbT8Tqp-zzTMCUu10vw&usqp=CAU"
+                alt="haland" class="img">
+            <div class="card-header">
+                <h5>Haalandizinho</h5>
+            </div>
+            <div class="card-body">
+                <p>invencivel</p>
+            </div>
+        </div>
+        <div class="col-2 offset-1 text-center" id="card">
+            <div class="card-header">
+                <h5>Erling Haaland</h5>
+            </div>
+            <div class="card-body">
+                <p>Com apenas 20 anos, Haaland já conquistou vários prêmios e estabeleceu recordes impressionantes. Seu
+                    futuro no futebol promete ser brilhante, e ele é considerado um dos jogadores mais promissores de
+                    sua geração.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <section class="imagem">
+        <h1>cadastro</h1>
+    </section>
+    <section class="inscricao" >
+        <h1>se cadastre para acompanhar seus idolos </h1>
+    </section>
+    <div class="col-8 offset-2 text-center">
+        <form>
+            <div class="mb-3">
+                <label for="disabledTextInput" class="form-label" id="p">nome</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="escreva seu nome">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label" id="p">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text" id="p">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label" id="p">senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1" id="p">Check me out</label>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(xx) xxxxx-xxxx">
+            </div>
+            <div class="mb-3">
+                <label>mensagem</label>
+                <textarea name="msg" placeholder="digite sua mensagem" class="form-control" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <input class="btn btn-primary" type="reset" value="Reset">
+        </form>
+    <!-- <section class="imagem">
+        <h1>Haaland</h1>
+    </section> -->
+        <footer>
+            <p>direitos reservados a sismetro</p>
+            <p>site produzido pelo aluno Leonardo maciel
+            <p>imagens aleatorias sem verificaçao de direitos autorais caso role processo nao fui eu que fiz o site</p>
+            </p>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

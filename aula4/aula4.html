@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <title>tag nav</title>
+  <style>
+   #cor {
+      background-color: rgb(84, 90, 88);
+    }
+    #imagem{
+     padding: 3%;
+     margin-top: 5%;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="row mt-2">
+    <div class="col-3 offset-1 text-center">
+      <div class="card" id="cor">
+        <img src="https://www.ahnegao.com.br/wp-content/uploads/2019/09/mesi-1.jpg" alt="messi" id="imagem">
+        <div class="card-header">
+          <h5>messizinho</h5>
+        </div>
+        <div class="card-body">
+          <p>invencivel</p>
+        </div>
+        <div class="card-foother">
+          <button type="submit" class="btn btn-primary">confirmar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-3 offset-1 text-center">
+      <div class="card">
+        <form id="cor">
+          <div class="card-body">
+            <h6>quem voce prefere</h6>
+          </div>
+          <div class="card-header">
+
+
+            <form class="cor">
+              <label for="arquivo">arquivo</label>
+              <input id="arquivo" type="file" class="form-control" />
+
+              <input type="hidden" class="form-control" value="20">
+
+              <label><br />
+                <input type="radio" name="opçao" value="o2" />messizinho
+              </label><br />
+
+              <label><br />
+                <input type="radio" name="opçao" value="o3" />cristianinho
+              </label><br />
+            </form>
+            <br>
+            <br>
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text"></div>
+
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+
+            <div class="card-foother">
+              <button type="submit" class="btn btn-primary">enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <div class="col-3 offset-1 text-center" >
+    <div class="card" id="cor">
+      <img src="https://th.bing.com/th/id/R.44979ad054b41c6a68ca2ce220284b8c?rik=ls%2fDtLleYb36ZA&pid=ImgRaw&r=0"
+        alt="cristiano" id="imagem">
+      <div class="card-header">
+        <h5>cristianinho</h5>
+      </div>
+      <div class="card-body">
+        <p>intankavel</p>
+      </div>
+      <div class="card-foother">
+        <button type="submit" class="btn btn-primary">confirmar</button>
+      </div>
+      
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
