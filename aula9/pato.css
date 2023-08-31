@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(rgb(0, 0, 0), rgb(43, 41, 41), rgb(53, 49, 49), rgb(87, 79, 79));
+}
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .cabecalho img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  a{
+    color:white
+  }
+  .link {
+    text-align: center;
+  }
+  
+  .link a {
+    display: inline-block;
+  }
+.titulo{
+    text-align: center;
+    color:rgb(7, 7, 7)
+}
+.texto2{
+    color:rgb(0, 0, 0)
+}
+
+section{
+    background-color: white;
+    display: flex;
+     justify-content:space-evenly; 
+     align-items: center; 
+}
+section div{
+    width: 75%;
+    margin: 2%;
+    
+}
+@media(min-width:800px){
+    section{
+    width: 60%;
+}
+}
+@media(min-width:1200px){
+    section{
+        width: 25%;
+    }
+}
+
