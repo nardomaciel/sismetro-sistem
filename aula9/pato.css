@@ -6,6 +6,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh; 
+    background-color: rgb(66, 63, 61);
   }
   
   .cabecalho img {
@@ -41,14 +42,23 @@ section div{
     margin: 2%;
     
 }
+.container{
+  width: 100%;
+  
+}
 @media(min-width:800px){
-    section{
-    width: 60%;
+    .container{
+    width: 50%;
 }
 }
 @media(min-width:1200px){
-    section{
+    .container{
         width: 25%;
     }
+}
+.img{
+  background: black url(https://i.pinimg.com/236x/0e/da/10/0eda105c433905c57a925c5468dc24e8.jpg) center center no-repeat fixed;
+  background: cover;
+  min-height: 50vh;
 }
 
