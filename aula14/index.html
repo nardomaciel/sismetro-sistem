@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>aula 13</title>
+    <style>
+        body {
+    background-image: 
+    linear-gradient(180deg, rgb(1, 45, 61),rgb(4, 117, 165), rgb(7, 149, 201));
+    background-attachment: fixed;
+        }
+
+        #cor {
+            background-color: rgb(48, 90, 132);
+            padding: 20px 5px;
+            margin-top: 10vh;
+            border-radius: 20px;
+            border: 4px solid rgb(39, 159, 186);
+            box-shadow: 10px  10px 6px 6px rgb(4, 117, 165);
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="row">
+        <div class=" calc col-4 offset-4" id="cor">
+            <h1>calculadora</h1>
+            <div class="row">
+                <div class="col-12">
+                    <input type="text" class="form-control" id="valor">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="row">
+                        <div class="d-grid gap-2">
+                            <button type type="button" class="btn btn-dark"" onclick=" ()">C</button>
+
+                            <button type="button" class="btn btn-dark" onclick="()">AR</button>
+
+                            <button type="button" class="btn btn-dark" onclick="()">MC</button>
+
+                            <button type="button" class="btn btn-dark" onclick="()">M+</button>
+
+                            <button type="button" class="btn btn-dark" onclick="()">M-</button>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-dark" onclick="()">&lt;x</button>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-dark" onclick="()">%</button>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-dark" onclick="()">7</button>
+
+                                    <button type="button" class="btn btn-dark" onclick="()">4</button>
+
+                                    <button type="button" class="btn btn-dark" onclick="()">1</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-dark" onclick="()">8</button>
+
+                                    <button type="button" class="btn btn-dark" onclick="()">5</button>
+
+                                    <button type="button" class="btn btn-dark" onclick="()">2</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-dark" onclick="()">9</button>
+
+                                    <button type="button" class="btn btn-dark" onclick="()">6</button>
+
+                                    <button type="button" class="btn btn-dark" onclick="()">3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="row">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-dark">&lt;0</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-dark">.</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row">
+                        <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-dark" onclick="()">/</button>
+
+                            <button type="button" class="btn btn-dark" onclick="()">*</button>
+
+                            <button type="button" class="btn btn-dark" onclick="()">-</button>
+
+                            <button type="button" class="btn btn-dark" onclick="()">+</button>
+
+                            <button type="button" class="btn btn-dark" onclick="()">=</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="01.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
