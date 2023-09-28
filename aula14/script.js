@@ -11,6 +11,39 @@ function efet_soma(){
     
     operacao = soma; 
     }
+    function efet_subtracao(){
+        if (typeof valor != typeof undefined && typeof operacao != typeof undefined){
+            valor = operacao(valor, Number(document.getElementById("valor").value));
+        }
+            else {
+                valor = Number(document.getElementById("valor").value);
+                document.getElementById("valor").value ="";
+            }
+        
+        operacao = subtracao; 
+        }
+        function efet_multiplicacao(){
+            if (typeof valor != typeof undefined && typeof operacao != typeof undefined){
+                valor = operacao(valor, Number(document.getElementById("valor").value));
+            }
+                else {
+                    valor = Number(document.getElementById("valor").value);
+                    document.getElementById("valor").value ="";
+                }
+            
+            operacao = multiplicacao; 
+            }
+            function efet_divisao(){
+                if (typeof valor != typeof undefined && typeof operacao != typeof undefined){
+                    valor = operacao(valor, Number(document.getElementById("valor").value));
+                }
+                    else {
+                        valor = Number(document.getElementById("valor").value);
+                        document.getElementById("valor").value ="";
+                    }
+                
+                operacao = divisao; 
+                }
 function resultado(){
     document.getElementById("valor").value = operacao(valor, Number(document.getElementById("valor").value))
     valor = undefined
@@ -79,12 +112,12 @@ function divisao(n1,n2){
    function somar(){
      document.getElementById("resultado").value = soma(Number(n1.value), Number(n2.value))
 }
-function subtrair(){
-    document.getElementById("resultado").value = subtracao(Number(n1.value), Number(n2.value))
-}
-function multiplicar(){
-    document.getElementById("resultado").value = multiplicacao(Number(n1.value), Number(n2.value))
-}
-function dividir(){
-    document.getElementById("resultado").value = soma(Number(n1.value), Number(n2.value))
-}
+// function subtrair(){
+//     document.getElementById("resultado").value = subtracao(Number(n1.value), Number(n2.value))
+// }
+// // function multiplicar(){
+// //     document.getElementById("resultado").value = multiplicacao(Number(n1.value), Number(n2.value))
+// // }
+// function dividir(){
+//     document.getElementById("resultado").value = soma(Number(n1.value), Number(n2.value))
+// }
